@@ -1,3 +1,4 @@
+import numpy as np
 
 def relu(x):
-    return x if x > 0 else 0
+    return np.max(0, x)
